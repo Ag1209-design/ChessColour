@@ -1,40 +1,40 @@
 Code file breakdown
 
-Main
+Main:
 Initialize game, manage main loop, handles user selections
 
-Game
+Game:
 Manage game state, move handling, switching mechanics, and animations
 
-Event Handler
+Event Handler:
 Processes user inputs, token interactions, and timer-based events
 
-Switch Handler
+Switch Handler:
 All colour switch related events
 
-Animation Handler
+Animation Handler:
 Animations and visual related actions
 
-UCI Engine
+UCI Engine:
 Interfaces with Stockfish or other UCI chess engines for AI moves
 
-Game Setup
+Game Setup:
 Configures players, AI, and initializes the chess game
 
-Chess View
+Chess View:
 Handles rendering the chessboard, pieces, and UI elements
 
-Evaluation
+Evaluation:
 Calculates win probabilities and evaluates board positions
 
-AI
+AI:
 AI player logic using a UCI engine or custom evaluation
 
-Plotting
+Plotting:
 Generates graphs for win probability analysis
 
-Configuration
+Configuration:
 Stores game settings, logging setup, UI parameters, and piece evaluation tables
 
-Win prob calculator
+Win prob calculator:
 Three modes - material, enhanced and engine to calculate win probability after every move
